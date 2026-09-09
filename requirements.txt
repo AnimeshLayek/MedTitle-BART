@@ -1,0 +1,17 @@
+# Core ML
+torch
+transformers
+datasets
+accelerate
+
+# Data
+pandas
+numpy
+scikit-learn
+
+# Evaluation
+evaluate
+rouge_score
+
+# Tokenization / utilities
+sentencepiece

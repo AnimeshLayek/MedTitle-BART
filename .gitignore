@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs / experiments
+runs/
+wandb/
+logs/
+checkpoints/
+
+# Large datasets
+data/
+dataset/
+*.tar
+*.tar.gz
+*.zip
+
+# Large ML model files
+models/*
+!models/README.md
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Local outputs
+*.tmp
+*.temp
+
+# Secrets
+.env
+.env.*
+!.env.example
